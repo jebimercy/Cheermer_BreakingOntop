@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mine"
+    tools:context=".MenuActivity">
+
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OUR MENU"
+        android:textColor="#F4F1F1"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/txtbreak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Breakfast"
+        android:textColor="#EFEBEB"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <TextView
+        android:id="@+id/txtlunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:text="Lunch"
+        android:textColor="#FAF6F6"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="258dp" />
+
+    <TextView
+        android:id="@+id/txtdinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:text="Dinner"
+        android:textColor="#F3F0F0"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <Button
+        android:id="@+id/bookroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@drawable/btn_bbg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:text="BOOK ROOM"
+        android:textAlignment="viewStart"
+        android:textColor="#F8F6F6"
+        android:textStyle="bold|italic" />
+
+</RelativeLayout>

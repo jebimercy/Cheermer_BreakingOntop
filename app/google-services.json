@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "660965042122",
+    "project_id": "fir-realtimempj",
+    "storage_bucket": "fir-realtimempj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660965042122:android:55705a4ba36d0182865133",
+        "android_client_info": {
+          "package_name": "com.example.cheermer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660965042122-3vhmnd3t60khu7ik3fqo0luiujciij3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdMR96tFpXYjkgxXH5km5SDEoG4cYYBJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660965042122-3vhmnd3t60khu7ik3fqo0luiujciij3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660965042122:android:1a67568e293f4d90865133",
+        "android_client_info": {
+          "package_name": "com.example.firebase_realtimempj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "660965042122-3vhmnd3t60khu7ik3fqo0luiujciij3d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdMR96tFpXYjkgxXH5km5SDEoG4cYYBJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "660965042122-3vhmnd3t60khu7ik3fqo0luiujciij3d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

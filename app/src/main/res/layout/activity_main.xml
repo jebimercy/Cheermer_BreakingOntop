@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/book"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtuser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="59dp"
+        android:background="@drawable/input_bbg"
+        android:drawablePadding="20dp"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:hint="UserName"
+        android:inputType="text"
+        android:textColor="#EFEDED"
+        android:textColorHint="#F8F1F1"
+        app:layout_constraintBottom_toTopOf="@+id/edtdishroom"
+        app:layout_constraintEnd_toEndOf="@+id/edtdishroom" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/btn_bbg"
+        android:textColor="#0B0A0A"
+        android:id="@+id/btnbook"
+        android:layout_marginEnd="40dp"
+        android:text="BOOK NOW"
+        app:layout_constraintEnd_toEndOf="@+id/edttime"
+        app:layout_constraintTop_toBottomOf="@+id/edttime" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="75dp"
+        android:text="BOOK HERE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edttime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/input_bbg"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:hint="Time For Service"
+        android:inputType="text"
+        android:textColor="#F8F5F5"
+        android:textColorHint="#F4F1F1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtdishroom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/input_bbg"
+        android:ems="10"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:hint="Your Dish/Room"
+        android:inputType="text"
+        android:textColor="#F4F2F2"
+        android:textColorHint="#FBF6F6"
+        app:layout_constraintBottom_toTopOf="@+id/edttime"
+        app:layout_constraintStart_toStartOf="@+id/edttime" />
+</RelativeLayout>
+
